@@ -11,5 +11,13 @@ function checkGender(){
         document.getElementById("genderBoks").style.display = "none";
     }
 }
- 
+function setHeading() {
+    let Firstname = document.getElementById("Firstname");
+    let heading = document.getElementById("Heading");
+    let container = document.getElementById("container");
+    heading.innerHTML = "velkommen, " + Firstname.value;
+    heading.style.color = "white";
+    heading.style.backgroundColor = "grey";
+    container.style.backgroundColor = "grey";
+}
 
