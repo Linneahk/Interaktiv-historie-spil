@@ -4,11 +4,11 @@ function checkGender(){
     let genderText = document.getElementById("genderText");
     if (boy){
         genderText.innerText="Eg er ein gutt";
-        document.getElementById("genderBoks").style.display = "none";
+       
     }
     if (girl){
         genderText.innerText="Eg er ei jente";
-        document.getElementById("genderBoks").style.display = "none";
+     
     }
 }
 function setHeading() {
@@ -16,8 +16,7 @@ function setHeading() {
     let heading = document.getElementById("Heading");
     let container = document.getElementById("container");
     heading.innerHTML = "velkommen, " + Firstname.value;
-    heading.style.color = "white";
-    heading.style.backgroundColor = "grey";
-    container.style.backgroundColor = "grey";
+    heading.style.color = "black";
+   
 }
 

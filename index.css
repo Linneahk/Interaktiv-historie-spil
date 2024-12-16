@@ -11,5 +11,20 @@
     font-size: 20px;
 }
  #checkGender{
-    font-size: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: rgb(227, 227, 227);
  }
+
+ #container {
+    text-align: center;
+ }
+
+#genderText {
+    text-align: center;
+    
+}
+#neste{
+    margin: auto auto auto auto;
+    height: 40px;
+}
