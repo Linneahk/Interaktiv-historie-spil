@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,27 +8,34 @@
     <link rel="stylesheet" href="index.css">
 
 </head>
+
 <body>
-     
-    <div id="genderBoks">
-        <input type="radio" name="gender" value="boy" id="genderBoy">Gutt.
-        <input type="radio" name="gender" value="girl" id="genderGirl">Jente.
-        <button id="checkGender" onclick="checkGender()">velg</button>
-        
+    <div class="container">
+        <div id="genderBoks">
+            <input type="radio" name="gender" value="boy" id="genderBoy">Gutt.
+            <input type="radio" name="gender" value="girl" id="genderGirl">Jente.
+            <button id="checkGender" onclick="checkGender()">velg</button>
+
+        </div>
+
+        <div>
+            <h3 id="genderText"></h3>
+        </div>
+
+        <div id="name">
+            <input type="text" id="Firstname" value="">
+            <button onclick="setHeading()">lagre</button>
+        </div>
+        <h1 id="Heading"></h1>
+        <p id="story"></p>
+        <button id="nextButton">neste</button>
+
     </div>
-    <button id="neste" onclick="next()">neste</button>
-    <div>
-        <h3 id="genderText"></h3>
-    </div>
-   
 
 
- <div id="container"> 
-    <h1 id="Heading"></h1>
-    <input type="text" id="Firstname" value="">
-    <button onclick="setHeading()">lagre</button>
- </div> 
-    
+
+
     <script type="text/JavaScript" src="index.js"></script>
 </body>
+
 </html>

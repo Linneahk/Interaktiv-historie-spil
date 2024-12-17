@@ -1,4 +1,4 @@
-#genderBoks {
+.container {
     background-color: rgb(81, 95, 95);
     padding: 70px;
     margin: auto;
@@ -26,4 +26,8 @@
 }
 #neste{
     height: 40px;
+}
+#name,#nextButton {
+    display: none;
+    align-items: center;
 }
