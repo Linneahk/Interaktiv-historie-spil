@@ -31,3 +31,6 @@
     display: none;
     align-items: center;
 }
+#Opt1, #Opt2{
+    display: none;
+}
