@@ -15,7 +15,7 @@
             <input type="radio" name="gender" value="boy" id="genderBoy">Gutt.
             <input type="radio" name="gender" value="girl" id="genderGirl">Jente.
             <button id="checkGender" onclick="checkGender()">velg</button>
-
+            
         </div>
 
         <div>
@@ -29,8 +29,17 @@
         <h1 id="Heading"></h1>
         <p id="story"></p>
         <button id="nextButton">neste</button>
-        <button id="Opt1">Du bryr deg ikkje og legger deg til og såve igjen</button>
-        <button id="Opt2">Du står opp og utforsker lyden</button>
+        <button id="Opt1" onclick="nextStep()">Du bryr deg ikkje og legger deg til og såve igjen</button>
+        <button id="Opt2" onclick="nextStep()">Du står opp og utforsker lyden</button>
+
+        <button id="Opt1.1" onclick="nextStep1()">du velger å springe etter mannen</button>
+        <button id="Opt2.1" onclick="nextStep1()">du blir forskrekka og låser deg inne på rommet</button>
+
+        <button id="Opt1.2" onclick="nextStep2()">Du bryr deg ikkje og legger deg til og såve igjen</button>
+        <button id="Opt2.2" onclick="nextStep2()">Du står opp og utforsker lyden</button>
+        
+
+        
 
     </div>
 
